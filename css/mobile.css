@@ -1,0 +1,117 @@
+@media screen and (max-width: 480px){
+.nav-link{color: white;
+font-family: 'Benne', serif;
+font-size: 1.2rem;position: relative;
+transition: 0.5s linear;
+margin: 0px 300px !important;
+text-align: center;
+}
+.banner h1{
+margin-top: 40px;
+font-family: 'Arizonia', cursive;
+font-size: 3rem;
+color: white;
+padding: 5px;
+}
+.banner h3{
+color:white;
+font-family: 'Josefin Slab', serif;
+font-size: 1.3rem;
+padding: 5px;
+}
+.banner img{
+width: auto;
+height: 90px;
+margin-top: 35px;
+}
+.intro img{
+height: 155px;
+width: auto;
+}
+.intro .sentence{
+    font-size: .83rem;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+}
+.edu{
+	margin-top: 45px;
+}
+.edu h2 {
+    font-size: 1.5rem;
+    margin-bottom: 26px;
+       margin-top: -35px;
+}
+.box {
+    padding: 15px;
+    margin: 20px 80px;
+}
+
+.box img {
+    height: 100px;
+    width: 100px;
+}
+.box h3 {
+    color: white;
+    margin-top: 30px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: .7rem;
+}
+.box p {
+    color: #ff9d9d;
+    margin-top: 15px;
+    margin-bottom: 0px;
+    font-family: 'Ropa Sans', sans-serif;
+    font-size: .8rem;
+}
+.skill h2 {
+    margin-bottom: 40px;
+    
+   margin-top: -26px;
+
+    font-size: 1.5rem;
+}
+.feature {
+    margin: 25px 22px;
+}
+.boxes img {
+    height: 105px;
+    width: auto;
+    margin-top: 53px;
+}
+.boxes h3 {
+    font-size: 1.2rem;
+}
+.boxes p {
+    color: #ff9d9d;
+    font-size: .9rem;
+    word-spacing: .5px;
+    letter-spacing: .5px;
+    text-align: left;
+    font-family: 'Ropa Sans', sans-serif;
+    margin-top: 20px;
+    word-spacing: 0;
+    letter-spacing: 0;
+}
+.contact {
+    margin-top: 15px;
+    text-align: center;
+}
+.contact h4 {
+    margin-top: 18px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.contact p {
+    color: #1d2346;
+    font-size: .777rem;
+    font-family: 'Ropa Sans', sans-serif;
+    margin-top: 12px;
+    word-spacing: 0px;
+    letter-spacing: 0px;
+    margin-bottom: 42px;
+}
+.footer {
+    margin-top: 55px;
+}
+
+}

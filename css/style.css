@@ -1,0 +1,267 @@
+*{margin: 0;padding: 0;}
+/*--------Navigation Bar-------*/
+.navbar{
+background-color:#1d2346 ;
+}
+.navbar-brand img{
+height: 60px;
+width: 60px;
+}
+.nav-item{
+padding: 0px 15px;
+}
+.nav-link{
+color: white;
+font-family: 'Benne', serif;
+font-size: 1.2rem;
+position: relative;
+transition: 0.5s linear;
+}
+.nav-link:hover{
+color:#ff9d9d;
+}
+.nav-link:before{
+content: "";
+position:absolute;
+left: 0;
+top: 90%;
+height: 3px;
+width: 0;
+background-color:#ff9d9d;
+transition: all 0.5s linear;
+}
+.nav-link:hover:before{
+width: 100%;
+}
+.custom-toggler .navbar-toggler-icon {
+background-image: url("../images/menu.svg");
+}
+.navbar-collapse {
+width: 0 !important;
+}
+/*--------Navigation Bar-------*/
+/*--------Banner-------*/
+.banner{
+background-color: #1d2346;
+}
+.banner h1{
+margin-top: 40px;
+font-family: 'Arizonia', cursive;
+font-size: 5.5rem;
+color: white;
+padding: 10px;
+}
+.banner h3{
+color:white;
+font-family: 'Josefin Slab', serif;
+font-size: 2.3rem;
+padding: 10px;
+}
+.banner img{
+width: auto;
+height: 231px;
+margin-top: 60px;
+}
+/*--------Banner-------*/
+/*--------Intro-------*/
+.intro img{
+margin-top: 80px;
+height: 200px;
+width: 200px;
+padding: 8px;
+}
+.intro h2{
+font-family: 'Arizonia', cursive;
+color:  #1d2346;
+font-size: 4.5rem;
+padding-top: 8px;
+}
+.intro .sentence{
+font-family: 'Lobster', cursive;
+color: #1d2346;
+font-size: 1.1rem;
+word-spacing: 3px;
+letter-spacing: 1.4px;
+padding: 0px;
+}
+
+/*--------Intro-------*/
+.arrow{
+	text-align: center;
+	margin-top: 70px;
+
+}
+.arrow span{
+	color:  #1d2346;
+	font-size: 30px;
+    -webkit-transform: translateY(-40px);
+    
+    display: block;
+    animation: Move;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes Move{
+0%{
+    -webkit-transform: translateY(-20px);
+    
+}
+100%{
+
+    -webkit-transform: translateY(-50px);
+    
+}
+}
+/*--------Edu-------*/
+.edu{
+	margin-top: 27px;
+}
+.edu h2{
+	    font-family: 'Noto Sans', sans-serif;
+	    color: #1d2346;
+	        font-size: 2.4rem;
+    margin-bottom: 65px;
+}
+.box{
+	padding: 25px;
+    background-color: #1d2346;
+    margin: 20px;
+    border-radius: 38px;
+    box-shadow: 0 4px 30px -8px black;
+}
+.box h3{
+color: white;
+margin-top: 30px;
+font-family: 'Noto Sans', sans-serif;
+font-size: 1.1rem;
+
+}
+.box p{
+color: #ff9d9d;
+margin-top: 20px;
+margin-bottom: 0px;
+font-family: 'Ropa Sans', sans-serif;
+}
+.box img{
+	height: 150px;
+	width: 150px;
+}
+/*--------Edu-------*/
+/*--------Skill-------*/
+.skill{
+	margin-top: 27px;
+}
+.skill h2{
+	 font-family: 'Noto Sans', sans-serif;
+	    color: #1d2346;
+	        font-size: 2.4rem;
+    margin-bottom: 20px;
+}
+.feature{
+	background-color: #1d2346;
+	/* margin: 0 10px; */
+	margin: 40px 165px;
+	border-radius: 20px;
+	box-shadow: 0 4px 30px -8px black;
+}
+.boxes{
+	
+padding: 60px;
+}
+.boxes img{
+	height: 150px;
+	width: 150px;
+}
+.boxes h3{
+color: white;
+font-family: 'Josefin Sans', sans-serif;
+font-size: 2rem;
+text-align: left;
+
+}
+.boxes p{
+color: #ff9d9d;
+font-size: 1rem;
+text-align: left;
+font-family: 'Ropa Sans', sans-serif;
+margin-top: 40px;
+word-spacing: 1px;
+letter-spacing: 1px;
+}
+.carousel-control-next-icon{
+	background-image: url(../images/right_arrow.png) !important;
+	height: 40px;
+	width: 40px;
+}
+.carousel-control-prev-icon{
+	background-image: url(../images/left_arrow.png) !important;
+	height: 40px;
+	width: 40px;
+}
+/*--------Skill-------*/
+/*--------Contact-------*/
+.contact{
+	margin-top: 27px;
+	text-align: center;
+}
+.contact h2{
+font-family: 'Noto Sans', sans-serif;
+	    color: #1d2346;
+	        font-size: 2.4rem;
+}
+.contact h4{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.7rem;
+	color:#1d2346; 
+	margin-top: 40px;
+}
+.contact p{
+	color:#1d2346;
+font-size: 1rem;
+font-family: 'Ropa Sans', sans-serif;
+margin-top: 20px;
+word-spacing: 1px;
+letter-spacing: 1px;
+margin-bottom: 50px;
+}
+a{
+text-decoration: none !important;
+}
+.button{
+	padding: 15px;
+    color: white;
+    background-color:#132a6d;
+    border-radius: 30px;
+    transition: .5s all linear;
+}
+.button:hover{
+	color: #ff9d9d !important;
+	background-color: #1d2346;
+
+
+}
+/*--------Contact-------*/
+/*--------Footer-------*/
+.footer{
+margin-top: 80px;
+background-color: #1d2346;
+}
+.foot{
+	text-align: center;
+	padding: 20px;
+}
+.foot i{
+color: #ff9d9d;
+padding: 0px 20px;
+font-size: 25px;
+transition: .5s all linear;
+}
+.foot i:hover{
+color: #da4141;
+padding: 0px 20px;
+font-size: 25px;
+}
+/*--------Footer-------*/
+
+

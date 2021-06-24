@@ -1,0 +1,149 @@
+@media screen and (max-width: 768px){
+.nav-link{
+color: white;
+font-family: 'Benne', serif;
+font-size: 1.2rem;
+position: relative;
+transition: 0.5s linear;
+margin: 0px 190px !important;
+}
+.nav-item {
+    padding: 0px 0px;
+    margin: 0px -170px;
+}
+/*------------------------------------------------------Responsive Banner---------------*/
+.banner h1{
+margin-top: 45px;
+font-family: 'Arizonia', cursive;
+font-size: 4.5rem;
+color: white;
+padding: 10px;
+}
+.banner h3{
+color:white;
+font-family: 'Josefin Slab', serif;
+font-size: 2rem;
+padding: 10px;
+}
+.banner img{
+width: auto;
+height: 124px;
+margin-top: 48px;
+}
+/*----------------intro----*/
+.intro img{
+margin-top: 50px;
+height: 185px;
+width: 185px;
+padding: 8px;
+}
+.intro h2{font-family: 'Arizonia', cursive;color:  #1d2346;font-size: 3.5rem;padding-top: 6px;}
+.intro .sentence {
+    font-family: 'Lobster', cursive;
+    color: #1d2346;
+    word-spacing: 0px;
+    letter-spacing: 0.4px;
+    padding: 0px;
+}
+/*----------------intro----*/
+
+/*--------Edu-------*/
+.edu h2{
+	  font-family: 'Noto Sans', sans-serif;
+    color: #1d2346;
+    font-size: 2rem;
+       margin-bottom: 50px;
+          margin-top: -68px;
+}
+.box {
+    padding: 0px;
+    background-color: #1d2346;
+    margin: 20px 165px;
+    border-radius: 38px;
+    box-shadow: 0 4px 30px -8px black;
+}
+
+
+.box h3{
+margin-top: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 1rem;
+
+}
+.box p{
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+.box img {
+    height: 120px;
+    width: 120px;
+    margin-top: 15px;
+}
+/*--------Edu-------*/
+/*--------Skill-------*/
+.skill{
+    margin-top: 25px;
+}
+.skill h2{
+	 font-family: 'Noto Sans', sans-serif;
+    color: #1d2346;
+    margin-bottom: 30px;
+}
+.feature{
+	margin: 25px 53px;
+}
+.boxes{
+	
+    padding: 20px;
+	
+}
+.boxes img{
+	    height: 120px;
+    width: 120px;
+    margin-top: 30px;
+}
+.boxes h3{
+color: white;
+font-family: 'Josefin Sans', sans-serif;
+font-size: 1.7rem;
+text-align: left;
+margin-top: 20px;
+
+}
+.boxes p{
+color: #ff9d9d;
+font-size: .9rem;
+word-spacing: .5px;
+letter-spacing: .5px;
+text-align: left;
+font-family: 'Ropa Sans', sans-serif;
+margin-top: 25px;
+word-spacing: 1px;
+letter-spacing: 1px;
+}
+.carousel-control-next, .carousel-control-prev{
+	margin-left: -25px;
+	margin-right: -25px;
+}
+/*--------Skill-------*/
+/*--------Contact-------*/
+.contact {
+    margin-top: 25px;
+    text-align: center;
+}
+.contact h2{
+font-family: 'Noto Sans', sans-serif;
+	    color: #1d2346;
+	        font-size: 2.4rem;
+	        margin-top: -15px;
+}
+.contact h4{
+margin-top: 20px;
+}
+.contact p{
+	margin-top: 15px;
+}
+.footer{
+margin-top: 60px;
+}
+}
